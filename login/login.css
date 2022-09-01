@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+  
+   
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-form {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    transition:  all .5s ease-out;
+}
+
+.welcome-back {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.message {
+    padding: 1rem;
+}
+
+.message h2 {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
+
+.message button {
+    padding: 1rem;
+    font-weight: 400;
+    background-color: #000000;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.message button:hover {
+    background-color: #06060f;
+}
+
+.formulario {
+   
+    height: 475px;
+    width: 400px;
+    top: 100px;
+    left: 50px;
+    position: relative;
+    text-decoration-color: rgb(255, 255, 255);
+
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.linea{
+    background-color: black;
+    height: 60px;
+    width: 1366px;
+    top: 0px;
+    position: absolute;
+}
+.linea{
+    background-color: black;
+    height: 60px;
+    width: 1366px;
+    top: 0px;
+    position: absolute;
+}
+.linea2{
+    background-color: rgba(255, 238, 4, 0.685);
+    height: 5px;
+    width: 1200px;
+    top: 680px;
+    position: absolute;
+}
+.titulo{
+
+    top: 645px;
+    align-items: center;
+ 
+
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+.create-account {
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+    color: white;
+}
+
+
+
+.cuenta-gratis {
+    padding: 2rem 0;
+    color: white;
+}
+.pla{
+    top: 0px;
+    left: 20px;
+    position: absolute;
+    z-index: 1;
+}
+.formulario input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+   
+    border: none;
+    border-bottom: rgb(255, 255, 255) thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: rgb(0, 0, 0);
+}
+
+.formulario input[type="button"] {
+    width: 60%;
+    margin: auto;
+    border: solid thin rgb(17, 8, 8);
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.sign-in {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    left: 1px;
+}
+
+.sign-in.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
+}
+  
+
+.fon{
+    position: absolute;
+
+}
+.relleno{
+    color: rgb(36, 36, 36);
+    top: 775px;
+    left: 500px;
+   
+    width: 600px;
+
+ 
+
+    position: absolute;
+    z-index: 1;
+
+}
+.cuadro{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 15px rgb(37, 37, 37);
+    width: 900px;
+    height: 400px;
+    
+    top: 725px;
+    left: 225px;
+    
+    
+
+
+    position: absolute;
+}
+.sist{
+    top: 727px;
+    left: 228px;
+    position: absolute;
+}
+.e{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    height: 75px;
+    width: 1500px;
+    top: 2400px;
+    
+    position: absolute;
+    
+    
+    left: 0px;
+   
+
+}
+.linea3{
+    background-color: rgba(68, 68, 68, 0.685);
+    height: 350px;
+    width: 3px;
+    left: 465px;
+    top: 750px;
+    position: absolute;
+}
+.cuadro1{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 8px rgb(37, 37, 37);
+    width: 250px;
+    height: 250px;
+    
+    top: 1400px;
+    left: 100px;
+    
+    
+
+
+    position: absolute;
+}
+.cuadro2{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 8px rgb(37, 37, 37);
+    width: 250px;
+    height: 250px;
+    
+    top: 1400px;
+    left: 400px;
+    
+    
+
+
+    position: absolute;
+}
+.cuadro3{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 8px rgb(37, 37, 37);
+    width: 250px;
+    height: 250px;
+    
+    top: 1400px;
+    left: 700px;
+    
+    
+
+
+    position: absolute;
+}
+.cuadro4{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 8px rgb(37, 37, 37);
+    width: 250px;
+    height: 250px;
+    
+    top: 1400px;
+    left: 1000px;
+    
+    position: absolute;
+}
+.cuadro5{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 8px rgb(37, 37, 37);
+    width: 250px;
+    height: 250px;
+    
+    top: 1850px;
+    left: 1000px;
+    
+    position: absolute;
+}
+.cuadro6{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 8px rgb(37, 37, 37);
+    width: 250px;
+    height: 250px;
+    
+    top: 1850px;
+    left: 700px;
+    
+    position: absolute;
+}
+.cuadro7{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 8px rgb(37, 37, 37);
+    width: 250px;
+    height: 250px;
+    
+    top: 1850px;
+    left: 100px;
+    
+    
+
+
+    position: absolute;
+}
+.cuadro8{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 8px rgb(37, 37, 37);
+    width: 250px;
+    height: 250px;
+    
+    top: 1850px;
+    left: 400px;
+    
+    
+
+
+    position: absolute;
+}
+.marte{
+    top: 1425px;
+    left: 127px;
+
+    position: absolute;
+    z-index: 1;
+}
+.tierra{
+    top: 1425px;
+    left: 425px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+.saturno{
+    top: 1440px;
+    left: 700px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+.neptuno{
+    top: 1425px;
+    left: 1030px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+.urano{
+    top: 1875px;
+    left: 1025px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+.venus{
+    top: 1880px;
+    left: 730px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+.mercurio{
+    top: 1880px;
+    left: 125px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+.jupiter{
+    top: 1880px;
+    left: 425px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+.linea5{
+    background-color: rgba(255, 238, 4, 0.685);
+    height: 5px;
+    width: 1200px;
+    top: 1300px;
+    position: absolute;
+}
+.a1{
+    top: 1665px;
+    left: 170px;
+
+     position: absolute;
+    z-index: 1;
+
+
+}
+.a2{
+    top: 1665px;
+    left: 1080px;
+
+    position: absolute;
+    z-index: 1;
+    
+
+}
+.a3{
+    top: 1665px;
+    left: 480px;
+
+     position: absolute;
+    z-index: 1;
+}
+.a4{
+    top: 1665px;
+    left: 790px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+.a5{
+    top: 2115px;
+    left: 1080px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+.a6{
+    top: 2115px;
+    left: 790px;
+
+    position: absolute;
+    z-index: 1;
+
+
+}
+.a7{
+    top: 2115px;
+    left: 170px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+.a8{
+    top: 2115px;
+    left: 480px;
+
+    position: absolute;
+    z-index: 1;
+
+}
+.titulo2{
+    top: 1270px;
+    position: absolute;
+
+}
+.texto1{
+    color: white;
+    top: 15px;
+    left: 100px;
+    position: absolute;
+    z-index: 2;
+}
+.uni{
+    top: 800px;
+    left: 0px;
+    position: absolute;
+    z-index: 0;
+}
